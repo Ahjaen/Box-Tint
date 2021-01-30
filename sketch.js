@@ -54,7 +54,7 @@ function draw() {
 
   ball.display()
 
-  string.display
+  string.display()
 
   drawSprites();
 }
@@ -63,6 +63,6 @@ function mouseDragged(){
   Matter.Body.setPosition(ball.body,{x:mouseX,y:mouseY})
 }
 
-function mouseRelease(){
+function mouseReleased(){
   string.fly()
 }
